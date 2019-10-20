@@ -1,0 +1,18 @@
+# 数据库连接信息
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=GMT
+    username: root
+    password: Bow1024
+
+#mqtt配置
+com:
+  mqtt:
+    host: tcp://121.40.173.5:1883
+    clientid: mqttjs_e8022a4d0b
+    topic: good,test,yes
+    username: admin
+    password: public
+    timeout: 10
+    keepalive: 20
