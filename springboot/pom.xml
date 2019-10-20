@@ -77,7 +77,7 @@
         <dependency>
             <artifactId>org.eclipse.paho.client.mqttv3</artifactId>
             <groupId>org.eclipse.paho</groupId>
-            <version>1.0.2</version>
+            <version>1.2.1</version>
         </dependency>
 
         <!-- json -->
